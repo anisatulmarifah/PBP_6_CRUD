@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#151515"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#151515"
+            android:gravity="center_vertical"
+            android:text="Data Ruangan"
+            android:textColor="@color/white"
+
+            android:textSize="20sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/tambah_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#151515"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Update" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditDataActivity"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#151515"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#131313"
+            android:backgroundTint="#151515"
+            android:gravity="center_vertical"
+            android:text="Edit Data Ruangan"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama kelas" />
+
+        <EditText
+            android:id="@+id/ruangkelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Ruang Kelas"
+            android:hint="Input Nama Kelas"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kapasitas Kelas" />
+
+        <EditText
+            android:id="@+id/kapasitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Kapasitas"
+            android:hint="input kapasitas Kelas"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/update_data_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:backgroundTint="#151515"
+            android:backgroundTintMode="add"
+            android:baselineAligned="false"
+            android:text="Update"
+            />
+    </LinearLayout>
+
+</LinearLayout>
