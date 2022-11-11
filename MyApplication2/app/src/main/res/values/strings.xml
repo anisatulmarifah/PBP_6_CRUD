@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str_textview1" />
+    <string name="str_edittext2" />
+    <string name="str_textView2" />
+    <string name="str_editText3" />
+    <string name="str_update_data" />
+    <string name="str_adapter_capacity" />
+    <string name="str_adapter_ruangkelas" />
+    <string name="str_btn1" />
+</resources>
